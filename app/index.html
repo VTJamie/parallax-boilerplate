@@ -1,0 +1,28 @@
+<!doctype html>
+ <html class="no-js">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title ng-bind="global.title"></title>
+    <meta name="description" content=""/>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico"/>
+
+    <!-- build:css assets/css/main.css -->
+    <link rel="stylesheet" href="assets/css/main.css"/>
+      <link rel="stylesheet" href="libs/angular-snap/angular-snap.css"/>
+      <link rel="stylesheet" href="libs/famous/famous.css"/>
+      <link rel="stylesheet" href="libs/famous-angular/famous-angular.css"/>
+	<!-- endbuild -->
+
+  </head>
+  <body role="application">
+    <div class="container-fluid" aria-hidden="false" ui-view></div>
+    <!--(if target dev)><!-->
+    <script src="libs/requirejs/require.js" data-main="components/config"></script>
+    <!--<!(endif)-->
+    <!--(if target dist)>
+    <script src="main.js"></script>
+    <!(endif)-->
+  </body>
+</html>

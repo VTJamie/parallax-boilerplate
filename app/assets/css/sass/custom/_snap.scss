@@ -1,0 +1,33 @@
+.navbar {
+  .snap-toggle-parent {
+    padding-left: 0;
+
+    .navbar-snap-toggle {
+      position: relative;
+      margin-right: 15px;
+      padding: 5px 10px 9px 10px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      background-color: transparent;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+
+      .icon-bar {
+        display: block;
+        margin-top: 4px;
+        background-color: #888888;
+        width: 22px;
+        height: 2px;
+
+      }
+    }
+  }
+}
+
+.snap-content {
+  -webkit-box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
