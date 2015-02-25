@@ -33,7 +33,7 @@ define(['app'
                 });
 
                 $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
-                    $rootScope.global.title = "Angular Boilerplate";
+                    $rootScope.global.title = "Parallax BoilerPlate";
                 });
 
             }]);
